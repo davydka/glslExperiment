@@ -1,0 +1,26 @@
+canvas,
+body,
+div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    z-index: 1;
+    position: absolute;
+    top:0;
+    left:0;
+    border: 1px solid black;
+    /*background: white;*/
+    width: 1080px;
+    height: 720px;
+    pointer-events: none;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
